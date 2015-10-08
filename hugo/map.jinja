@@ -1,0 +1,5 @@
+{% set hugo = salt['grains.filter_by']({
+    'Debian': {
+      'pkg_url': 'https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb',
+    },
+}, merge=salt['pillar.get']('hugo:lookup')) %}

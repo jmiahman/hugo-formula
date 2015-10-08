@@ -1,0 +1,4 @@
+hugo:
+  lookup:
+    # Package URL
+    pkg_url: https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb
