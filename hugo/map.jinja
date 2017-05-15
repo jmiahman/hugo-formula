@@ -2,4 +2,7 @@
     'Debian': {
       'pkg_url': 'https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb',
     },
+    'Fedora': {
+      'pkg_url': 'https://copr-be.cloud.fedoraproject.org/results/daftaupe/hugo/fedora-25-x86_64/00551663-hugo/hugo-0.20.7-0.fc25.x86_64.rpm',
+    },
 }, merge=salt['pillar.get']('hugo:lookup')) %}
